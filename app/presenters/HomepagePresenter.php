@@ -11,7 +11,7 @@ class HomepagePresenter extends BasePresenter
 	 */
 	protected $eventManager;
 	/**
-	 * @var TestApp\messagetFormProcess $messageFormProcess
+	 * @var TestApp\IMessageFormProcess $messageFormProcess
 	 */
 	protected $messageFormProcess;
 
