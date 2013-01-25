@@ -1,0 +1,25 @@
+{
+	"name": "eventstest",
+	"description": "Test app with Kdyby events and nette fw",
+	"authors": [
+		{
+			"name": "David Grudl",
+			"homepage": "http://davidgrudl.com"
+		},
+		{
+			"name": "Nette Community",
+			"homepage": "http://nette.org/contributors"
+		}
+	],
+	"config": {
+		"vendor-dir": "libs"
+	},
+	"require": {
+		"php": ">= 5.3.0",
+		"nette/nette": "dev-master",
+		"kdyby/events": "@dev"
+	},
+    "require-dev": {
+        "nette/tester": "@dev"
+	}
+}
